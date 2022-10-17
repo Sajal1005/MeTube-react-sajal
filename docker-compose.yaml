@@ -13,7 +13,7 @@ services:
       - mern-app
     volumes:
       - ./src:/app/src
-    
+      - ./app/node_modules
   
 networks:
   mern-app:
